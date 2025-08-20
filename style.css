@@ -2,11 +2,17 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-
+html,body{
+overflow-x: hidden;
+}
 h1,p,button{
     max-width: 100%;  
 }
-
+body{
+width: 100%;
+max-width: 100%;
+overflow-x:hidden ;
+}
 .travel{
     color: yellow;
 }
@@ -38,6 +44,9 @@ height: 100vh;
 width: 100%;
 background-position: center;
 position: relative;
+}
+.italy{
+    color: orange;
 }
 .content{
 display: flex;
@@ -124,6 +133,7 @@ font-size: 25px;
 }
 .card-container{
 padding: 60px;
+
 }
 .Price{
     font-size: 20px;
